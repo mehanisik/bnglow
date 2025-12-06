@@ -41,7 +41,7 @@ Sagando Bungalows is a boutique beachfront resort located in the serene village 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mehanisik/bnglow.git
    cd bnglow
    ```
 
@@ -79,7 +79,7 @@ Sagando Bungalows is a boutique beachfront resort located in the serene village 
 
 ```
 bnglow/
-  app/                    # Next.js App Router pages
+  app/                   # Next.js App Router pages
     about/               # About page
     contact/             # Contact page
     experiences/         # Experiences page
@@ -111,16 +111,6 @@ This project is optimized for deployment on [Vercel](https://vercel.com).
 ### Environment Variables
 
 If you're using any environment variables, make sure to add them in the Vercel Dashboard under Project Settings > Environment Variables.
-
-## Booking Integration
-
-The website integrates with Booking.com for reservations. The booking widget in the hero section:
-
-1. Collects check-in date, check-out date, and guest count
-2. Validates dates (prevents past dates, ensures checkout > checkin)
-3. Redirects to Booking.com property page with pre-filled parameters
-
-No backend is required - all booking is handled by Booking.com.
 
 ## License
 
