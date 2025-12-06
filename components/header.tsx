@@ -1,7 +1,7 @@
 'use client'
 
 import gsap from 'gsap'
-import { Activity01Icon, Cancel01Icon } from 'hugeicons-react'
+import { Cancel01Icon, Menu01Icon } from 'hugeicons-react'
 import { usePathname } from 'next/navigation'
 import { useEffect, useEffectEvent, useRef, useState } from 'react'
 import { Link } from '~/components/link'
@@ -226,7 +226,7 @@ export function Header() {
             {isMenuOpen ? (
               <Cancel01Icon size={24} />
             ) : (
-              <Activity01Icon size={24} />
+              <Menu01Icon size={24} />
             )}
           </button>
         </div>
